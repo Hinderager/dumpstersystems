@@ -13,8 +13,60 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dumpster Systems AI | Automation for Dumpster Rental Companies",
-  description: "AI-powered automation solutions for dumpster rental companies. Streamline scheduling, dispatching, customer management, and more.",
+  metadataBase: new URL('https://dumpstersystems.ai'),
+  title: {
+    default: "Dumpster Systems AI | Automation for Dumpster Rental Companies",
+    template: "%s | Dumpster Systems AI",
+  },
+  description: "AI-powered automation solutions for dumpster rental companies. AI receptionist, smart websites, route optimization, automated dispatching, and more. Save 20+ hours per week.",
+  keywords: [
+    "dumpster rental automation",
+    "dumpster rental software",
+    "AI receptionist dumpster",
+    "dumpster scheduling software",
+    "waste management automation",
+    "dumpster dispatch software",
+    "roll-off dumpster software",
+    "dumpster rental CRM",
+    "dumpster business automation",
+    "AI for dumpster companies",
+  ],
+  authors: [{ name: "Dumpster Systems AI" }],
+  creator: "Dumpster Systems AI",
+  publisher: "Dumpster Systems AI",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://dumpstersystems.ai",
+    siteName: "Dumpster Systems AI",
+    title: "Dumpster Systems AI | Automation for Dumpster Rental Companies",
+    description: "AI-powered automation solutions for dumpster rental companies. Save 20+ hours per week with AI receptionist, smart websites, route optimization, and more.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Dumpster Systems AI - Automation for Dumpster Rental Companies",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dumpster Systems AI | Automation for Dumpster Rental Companies",
+    description: "AI-powered automation solutions for dumpster rental companies. Save 20+ hours per week.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
