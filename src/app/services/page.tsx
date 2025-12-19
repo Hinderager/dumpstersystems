@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Automation Services",
   description: "Explore our full suite of AI-powered automation services for dumpster rental companies. From AI receptionists to route optimization, we help you scale.",
+  alternates: {
+    canonical: "https://dumpstersystems.ai/services",
+  },
 };
 
 const services = [

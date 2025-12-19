@@ -1,4 +1,11 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://dumpstersystems.ai",
+  },
+};
 
 const services = [
   { title: "AI Receptionist", description: "24/7 phone answering, appointment booking, and customer inquiries handled by AI.", icon: "Phone" },

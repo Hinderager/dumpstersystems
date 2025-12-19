@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: "Get in touch with Dumpster Systems AI. Schedule a free consultation to learn how automation can transform your dumpster rental business.",
+  alternates: {
+    canonical: "https://dumpstersystems.ai/contact",
+  },
 };
 
 export default function ContactPage() {

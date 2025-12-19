@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us",
   description: "Learn about Dumpster Systems AI and our mission to help dumpster rental companies automate their operations and scale efficiently.",
+  alternates: {
+    canonical: "https://dumpstersystems.ai/about",
+  },
 };
 
 export default function AboutPage() {

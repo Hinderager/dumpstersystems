@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pricing",
   description: "Transparent pricing for dumpster rental automation. Choose from Starter, Growth, or Enterprise plans to match your business needs.",
+  alternates: {
+    canonical: "https://dumpstersystems.ai/pricing",
+  },
 };
 
 const plans = [
