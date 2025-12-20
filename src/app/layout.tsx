@@ -108,7 +108,7 @@ export default function RootLayout({
                   "description": "AI-powered automation solutions for dumpster rental companies. Save 20+ hours per week with AI receptionist, smart websites, route optimization, and more.",
                   "contactPoint": {
                     "@type": "ContactPoint",
-                    "telephone": "+1-555-123-4567",
+                    "telephone": "+1-208-742-2268",
                     "contactType": "customer service",
                     "availableLanguage": "English"
                   }
@@ -119,7 +119,7 @@ export default function RootLayout({
                   "name": "Dumpster Systems",
                   "image": "https://dumpstersystems.ai/og-image.png",
                   "url": "https://dumpstersystems.ai",
-                  "telephone": "+1-555-123-4567",
+                  "telephone": "+1-208-742-2268",
                   "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "1755 N Westgate Dr Suite 110",

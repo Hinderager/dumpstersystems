@@ -46,7 +46,7 @@ export default function ContactPage() {
                   <div className="rounded-full bg-blue-100 p-3 text-2xl">📞</div>
                   <div>
                     <h3 className="font-semibold text-zinc-900">Phone</h3>
-                    <p className="mt-1 text-zinc-600">(555) 123-4567</p>
+                    <p className="mt-1 text-zinc-600">(208) 742-2268</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     id="phone"
                     name="phone"
                     className="mt-2 w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 placeholder-zinc-400 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                    placeholder="(555) 123-4567"
+                    placeholder="(208) 742-2268"
                   />
                 </div>
                 <div>
