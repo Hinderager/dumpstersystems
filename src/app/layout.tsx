@@ -90,6 +90,76 @@ export default function RootLayout({
             gtag('config', 'G-581QKP6ZE5');
           `}
         </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://dumpstersystems.ai/#organization",
+                  "name": "Dumpster Systems",
+                  "url": "https://dumpstersystems.ai",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://dumpstersystems.ai/og-image.png"
+                  },
+                  "description": "AI-powered automation solutions for dumpster rental companies. Save 20+ hours per week with AI receptionist, smart websites, route optimization, and more.",
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+1-555-123-4567",
+                    "contactType": "customer service",
+                    "availableLanguage": "English"
+                  }
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "@id": "https://dumpstersystems.ai/#localbusiness",
+                  "name": "Dumpster Systems",
+                  "image": "https://dumpstersystems.ai/og-image.png",
+                  "url": "https://dumpstersystems.ai",
+                  "telephone": "+1-555-123-4567",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "1755 N Westgate Dr Suite 110",
+                    "addressLocality": "Boise",
+                    "addressRegion": "ID",
+                    "postalCode": "83704",
+                    "addressCountry": "US"
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                      "opens": "08:00",
+                      "closes": "20:00"
+                    }
+                  ],
+                  "priceRange": "$$"
+                },
+                {
+                  "@type": "SoftwareApplication",
+                  "@id": "https://dumpstersystems.ai/#software",
+                  "name": "Dumpster Systems AI",
+                  "applicationCategory": "BusinessApplication",
+                  "operatingSystem": "Web",
+                  "description": "AI-powered automation software for dumpster rental companies including AI receptionist, route optimization, automated dispatching, CRM, and billing.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "997",
+                    "priceCurrency": "USD",
+                    "priceValidUntil": "2025-12-31"
+                  },
+                  "provider": {
+                    "@type": "Organization",
+                    "@id": "https://dumpstersystems.ai/#organization"
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
